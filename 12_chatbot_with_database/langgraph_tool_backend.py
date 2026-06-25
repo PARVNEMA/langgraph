@@ -68,6 +68,7 @@ def chat_node(state:ChatMessage):
 
     return {"messages": [response]}
 
+# ? defining tool node
 tool_node=ToolNode(tools)
 
 graph = StateGraph(ChatMessage)
